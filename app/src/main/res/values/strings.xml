@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">recyclerView_app</string>
+    
+    <string-array name='students_group'>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+        <item>IT-118</item>
+    </string-array>
+    
+    <string-array name="description">
+        <item>Danil Popov</item>
+        <item>Tsakaev Ahmad</item>
+        <item>Burnashev Veniamin</item>
+        <item>Bekturganov Aidin</item>
+        <item>Mambetaliev Azamat</item>
+        <item>Aidarov Avai</item>
+        <item>Abdraimova Aisulu</item>
+        <item>Tuleev Marat</item>
+        <item>Elin Louden</item>
+        <item>John Laurenz</item>
+        <item>Alberto Carleone</item>
+        <item>Don Carleone</item>
+        <item>Bruce Calderon</item>
+        <item>Tego Calderon</item>
+        <item>Melisa Axel</item>
+        <item>Heinz Richter</item>
+        <item>Hans Remasten</item>
+        <item>Patrick Stiven</item>
+        <item>Johnny Stark</item>
+        <item>James Bond</item>
+
+
+    </string-array>
+</resources>
