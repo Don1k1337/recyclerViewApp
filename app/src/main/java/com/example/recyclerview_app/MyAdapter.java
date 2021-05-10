@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
-    String[] data1;
-    String[] data2;
-    int[] images;
-    Context context;
+    final String[] data1;
+    final String[] data2;
+    final int[] images;
+    final Context context;
 
     public MyAdapter(Context ct, String[] s1, String[] s2, int[] img) {
         context = ct;
@@ -44,10 +44,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         return images.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder{
+    public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView student_group_txt, description_txt;
-        ImageView myImageView;
+        final TextView student_group_txt;
+        final TextView description_txt;
+        final ImageView myImageView;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);

@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     String[] s1;
     String[] s2;
-    int[] images = {R.drawable.male, R.drawable.male, R.drawable.male, R.drawable.male,
+    final int[] images = {R.drawable.male, R.drawable.male, R.drawable.male, R.drawable.male,
             R.drawable.male, R.drawable.male,
             R.drawable.female, R.drawable.male,
             R.drawable.male, R.drawable.male,

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">recyclerView_app</string>
-    
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="iuca">IUCA</string>
+
     <string-array name='students_group'>
         <item>IT-118</item>
         <item>IT-118</item>
